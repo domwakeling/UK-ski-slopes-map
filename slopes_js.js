@@ -6,8 +6,8 @@ var margin = {
 };
 
 var mouseOrig;
-var anglesOrig = [3, -54.25, -3];
-var anglesCurr = [3, -54.25, -3];
+var anglesOrig = [-6, -54.25, 3]; //[3, -54.25, -3]
+var anglesCurr = [-6, -54.25, 3];
 var zoomCurr = 3000;
 var zoomMin = 30;
 var zoomMax = 2500;
@@ -22,7 +22,7 @@ var projection = d3.geoOrthographic()
 //var projection = d3.geoMercator()
     .scale(zoomCurr)
     .clipAngle(90)
-    .translate([width / 2, height / 2])
+//    .translate([width / 2, height / 2])
     .rotate(anglesCurr);
 
 var path = d3.geoPath()

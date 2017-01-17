@@ -3,7 +3,7 @@
    { "type" : "Feature",
      "geometry" : {
        "type" : "Point",
-       "coordinates" : [51.076321, 0.202266]
+       "coordinates" : [0.202266, 51.076321]
      },
      "properties" : {
        "name" : "Bowles",
@@ -15,7 +15,7 @@
    { "type" : "Feature",
      "geometry" : {
        "type" : "Point",
-       "coordinates" : [51.256425, -0.748978]
+       "coordinates" : [-0.748978, 51.256425]
      },
      "properties" : {
        "name" : "Aldershot",
@@ -27,7 +27,7 @@
    { "type" : "Feature",
      "geometry" : {
        "type" : "Point",
-       "coordinates" : [50.940115, -1.420435]
+       "coordinates" : [-1.420435, 50.940115]
      },
      "properties" : {
        "name" : "Southampton",
@@ -39,7 +39,7 @@
    { "type" : "Feature",
      "geometry" : {
        "type" : "Point",
-       "coordinates" : [51.597452, 0.294547]
+       "coordinates" : [0.294547, 51.597452]
      },
      "properties" : {
        "name" : "Brentwood",
@@ -51,7 +51,7 @@
    { "type" : "Feature",
      "geometry" : {
        "type" : "Point",
-       "coordinates" : [51.355363, 0.559605]
+       "coordinates" : [0.559605, 51.355363]
      },
      "properties" : {
        "name" : "Chatham",
@@ -63,7 +63,7 @@
    { "type" : "Feature",
      "geometry" : {
        "type" : "Point",
-       "coordinates" : [51.256134, -0.581095]
+       "coordinates" : [-0.581095, 51.256134]
      },
      "properties" : {
        "name" : "Guildford",
@@ -75,7 +75,7 @@
    { "type" : "Feature",
      "geometry" : {
        "type" : "Point",
-       "coordinates" : [51.086644, 1.167531]
+       "coordinates" : [1.167531, 51.086644]
      },
      "properties" : {
        "name" : "Folkestone",
@@ -87,7 +87,7 @@
    { "type" : "Feature",
      "geometry" : {
        "type" : "Point",
-       "coordinates" : [50.862277, 0.241074]
+       "coordinates" : [0.241074, 50.862277]
      },
      "properties" : {
        "name" : "Knock Hatch",
@@ -99,7 +99,7 @@
    { "type" : "Feature",
      "geometry" : {
        "type" : "Point",
-       "coordinates" : [51.372779, -0.364979]
+       "coordinates" : [-0.364979, 51.372779]
      },
      "properties" : {
        "name" : "Sandown",
@@ -111,7 +111,7 @@
    { "type" : "Feature",
      "geometry" : {
        "type" : "Point",
-       "coordinates" : [51.791179, -0.212710]
+       "coordinates" : [-0.212710, 51.791179]
      },
      "properties" : {
        "name" : "Welwyn",
@@ -123,7 +123,7 @@
    { "type" : "Feature",
      "geometry" : {
        "type" : "Point",
-       "coordinates" : [51.745684, -0.458958]
+       "coordinates" : [-0.458958, 51.745684]
      },
      "properties" : {
        "name" : "Hemel Hempstead",
