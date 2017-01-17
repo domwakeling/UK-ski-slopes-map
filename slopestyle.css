@@ -1,0 +1,42 @@
+/*body {
+  background-color: #222; }
+
+h2 {
+  font-family: sans-serif;
+  color: #eee;
+  padding-bottom: 0;
+  margin-bottom: 0; }
+
+.header-title {
+  margin-bottom: 20px;
+  text-align: center; }*/
+
+.wrapper {
+  width: 400px;
+  margin: 0 auto;
+  background-color: #444;
+  border: 1px solid white; }
+
+div.tooltip {
+  position: absolute;
+  text-align: left;
+  /*max-width: 160px;*/
+  padding: 7px;
+  font: 12px sans-serif;
+  background: lightgray;
+  border: 0;
+  border-radius: 5px;
+  pointer-events: none; }
+
+path {
+  stroke: white;
+  stroke-width: 0.5px;
+  fill: #444; }
+
+path.country {
+  fill: #4a5; }
+
+path.slopes {
+  fill: #f00; }
+
+/*# sourceMappingURL=main_style.css.map */
