@@ -46,7 +46,8 @@ var div = d3.select("body").append("div")
     .style("opacity", 0);
 
 // URLs for [1] a 110-m map stored in a GitHub repo and [2] the slopes data in a GitHub repo
-var url1 = "https://raw.githubusercontent.com/domwakeling/UK-ski-slopes-map/master/uk110m.json";
+//var url1 = "https://raw.githubusercontent.com/domwakeling/UK-ski-slopes-map/master/uk110m.json";
+var url1 = "https://raw.githubusercontent.com/domwakeling/UK-ski-slopes-map/master/british-isles_geo.json"
 var url2 = "https://raw.githubusercontent.com/domwakeling/UK-ski-slopes-map/master/skislopes.json";
 
 d3.queue(2)
