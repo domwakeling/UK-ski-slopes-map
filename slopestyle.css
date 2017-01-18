@@ -12,10 +12,11 @@ h2 {
   text-align: center; }*/
 
 .wrapper {
-  width: 400px;
-  margin: 0 auto;
-  background-color: #444;
-  border: 1px solid white; }
+  width: 450px;
+  /*margin: 0 auto;*/
+  /*background-color: #444;*/
+  /*border: 1px solid white; */
+}
 
 div.tooltip {
   position: absolute;
@@ -26,7 +27,8 @@ div.tooltip {
   background: lightgray;
   border: 0;
   border-radius: 5px;
-  pointer-events: none; }
+  pointer-events: none;
+}
 
 path {
   stroke: white;
@@ -34,7 +36,8 @@ path {
   fill: #444; }
 
 path.country {
-  fill: #4a5; }
+  fill: #D8E7F7;
+}
 
 path.slopes {
   fill: #f00; }

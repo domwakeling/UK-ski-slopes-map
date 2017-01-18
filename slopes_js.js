@@ -6,23 +6,25 @@ var margin = {
 };
 
 var mouseOrig;
-var anglesOrig = [-6, -54.25, 3]; //[3, -54.25, -3]
-var anglesCurr = [-6, -54.25, 3];
-var zoomCurr = 3000;
-var zoomMin = 30;
-var zoomMax = 2500;
-var mSc = 8; // mouse scale for rotations
-var zoomFac = 150; // factor for zoom sensitivity (higher = less sensitive)
+//var anglesOrig = [-6, -54.25, 3]; //[3, -54.25, -3]
+var anglesCurr = [3, -54.25, -2];
+//var anglesOrig = [0,0];
+//var anglesCurr = [0,0];
+var zoomCurr = 4000;
+//var zoomMin = 30;
+//var zoomMax = 2500;
+//var mSc = 8;  mouse scale for rotations
+//var zoomFac = 150; // factor for zoom sensitivity (higher = less sensitive)
 
-var width = 400 - margin.left - margin.right; // base number needs to match wrapper
-var height = 500 - margin.top - margin.bottom;
+var width = 450 - margin.left - margin.right; // base number needs to match wrapper
+var height = 650 - margin.top - margin.bottom;
 
 var projection = d3.geoOrthographic()
 //var projection = d3.geoConicEqualArea()
 //var projection = d3.geoMercator()
     .scale(zoomCurr)
     .clipAngle(90)
-//    .translate([width / 2, height / 2])
+    .translate([width / 2, height / 2])
     .rotate(anglesCurr);
 
 var path = d3.geoPath()
@@ -69,7 +71,7 @@ function renderMap(topology, slopes) {
 //    chart.on("mousedown", mouseDown)
 //        .on("mousewheel", zoomed);
 //	chart.on("mousewheel", zoomed);
-
+//
 //    d3.select(window)
 //        .on("mousemove", mouseMoved)
 //        .on("mouseup", mouseUp);
@@ -88,15 +90,16 @@ function renderslopes(slopes) {
         .enter()
         .append("path")
         .datum(function(d) {
-            var slopeObj = circle.radius(1).center(d.geometry.coordinates)();
+            var slopeObj = circle.radius(0.07).center(d.geometry.coordinates)();
             slopeObj.name = d.properties.name;
-            slopeObj.slopeURL = d.properties.slopeURL;
+//            slopeObj.slopeURL = d.properties.slopeURL;
             return slopeObj;
         })
         .attr("class", "slopes")
         .attr("d", path)
         .on("mouseover", function(d) {
-            var str = d.name + "<br />" + d.slopeURL;
+	        var str = d.name;
+//            var str = d.name + "<br />" + d.slopeURL;
             div.transition()
                 .duration(200)
                 .style("opacity", 1.0);
@@ -118,29 +121,29 @@ function renderslopes(slopes) {
 //    refresh();
 //    d3.event.preventDefault;
 //}
-
-function mouseDown() {
-    mouseOrig = [d3.event.pageX, d3.event.pageY];
-    console.log("orig:", anglesOrig, "curr:", anglesCurr)
-    anglesOrig = [anglesCurr[0], anglesCurr[1]];
-    d3.event.preventDefault();
-}
-
-function mouseMoved() {
-    if (mouseOrig) {
-        var mouseCurr = [d3.event.pageX, d3.event.pageY];
-        anglesCurr = [anglesOrig[0] - (mouseOrig[0] - mouseCurr[0]) / mSc, anglesOrig[1] - (mouseCurr[1] - mouseOrig[1]) / mSc];
-        projection.rotate(anglesCurr);
-        refresh();
-    }
-}
-
-function mouseUp() {
-    if (mouseOrig) {
-        mouseMoved();
-        mouseOrig = null;
-    }
-}
+//
+//function mouseDown() {
+//    mouseOrig = [d3.event.pageX, d3.event.pageY];
+//    console.log("orig:", anglesOrig, "curr:", anglesCurr)
+//    anglesOrig = [anglesCurr[0], anglesCurr[1]];
+//    d3.event.preventDefault();
+//}
+//
+//function mouseMoved() {
+//    if (mouseOrig) {
+//        var mouseCurr = [d3.event.pageX, d3.event.pageY];
+//        anglesCurr = [anglesOrig[0] - (mouseOrig[0] - mouseCurr[0]) / mSc, anglesOrig[1] - (mouseCurr[1] - mouseOrig[1]) / mSc];
+//        projection.rotate(anglesCurr);
+//        refresh();
+//    }
+//}
+//
+//function mouseUp() {
+//    if (mouseOrig) {
+//        mouseMoved();
+//        mouseOrig = null;
+//    }
+//}
 
 function refresh() {
     chart.selectAll("path").attr("d", path);
