@@ -14,8 +14,7 @@ h2 {
 .wrapper {
   width: 450px;
   /*margin: 0 auto;*/
-  /*background-color: #444;*/
-  /*border: 1px solid white; */
+  border: 1px solid #d8e7f7 !important; 
 }
 
 div.tooltip {

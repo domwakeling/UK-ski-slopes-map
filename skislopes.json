@@ -6,11 +6,8 @@
        "coordinates" : [0.202266, 51.076321]
      },
      "properties" : {
-       "name" : "Bowles",
-       "slopeURL" : "https://www.bowles.ac",
-       "clubName" : "Bowles Ski Racing Club",
-       "clubURL" : "http://www.bowlesskiracingclub.org.uk/"
-     }
+       "name" : "Bowles"
+	 }
    },
    { "type" : "Feature",
      "geometry" : {
@@ -18,10 +15,7 @@
        "coordinates" : [-0.748978, 51.256425]
      },
      "properties" : {
-       "name" : "Aldershot",
-       "slopeURL" : "http://activenation.org.uk/outdoor_venue/alpine-snowsports-aldershot/",
-       "clubName" : "Aldershot Ski Race Club",
-       "clubURL" : "http://www.aldershotskiraceclub.org/"
+       "name" : "Aldershot"
      }
    },
    { "type" : "Feature",
@@ -30,10 +24,7 @@
        "coordinates" : [-1.420435, 50.940115]
      },
      "properties" : {
-       "name" : "Southampton",
-       "slopeURL" : "http://activenation.org.uk/outdoor_venue/alpine-snowsports-southampton/",
-       "clubName" : "Southampton Area Ski Assocation",
-       "clubURL" : "http://www.skisasa.co.uk/"
+       "name" : "Southampton"
      }
    },
    { "type" : "Feature",
@@ -42,10 +33,7 @@
        "coordinates" : [0.294547, 51.597452]
      },
      "properties" : {
-       "name" : "Brentwood",
-       "slopeURL" : "http://www.brentwoodskicentre.co.uk/",
-       "clubName" : "Essex Ski Racing Club",
-       "clubURL" : "http://www.essexskiracingclub.org.uk/"
+       "name" : "Brentwood"
      }
    },
    { "type" : "Feature",
@@ -54,10 +42,7 @@
        "coordinates" : [0.559605, 51.355363]
      },
      "properties" : {
-       "name" : "Chatham",
-       "slopeURL" : "http://www.jnlchatham.co.uk/",
-       "clubName" : null,
-       "clubURL" : null
+       "name" : "Chatham"
      }
    },
    { "type" : "Feature",
@@ -66,10 +51,7 @@
        "coordinates" : [-0.581095, 51.256134]
      },
      "properties" : {
-       "name" : "Guildford",
-       "slopeURL" : "http://guildfordskislope.co.uk/",
-       "clubName" : null,
-       "clubURL" : null
+       "name" : "Guildford"
      }
    },
    { "type" : "Feature",
@@ -78,10 +60,7 @@
        "coordinates" : [1.167531, 51.086644]
      },
      "properties" : {
-       "name" : "Folkestone",
-       "slopeURL" : "http://www.folkestonesportscentre.co.uk/facilities-ski.asp",
-       "clubName" : "Folkestone Ski Club",
-       "clubURL" : "https://www.facebook.com/FolkestoneSkiClub/"
+       "name" : "Folkestone"
      }
    },
    { "type" : "Feature",
@@ -90,10 +69,7 @@
        "coordinates" : [0.241074, 50.862277]
      },
      "properties" : {
-       "name" : "Knock Hatch",
-       "slopeURL" : "http://www.knockhatchskicentre.co.uk/",
-       "clubName" : null,
-       "clubURL" : null
+       "name" : "Knock Hatch"
      }
    },
    { "type" : "Feature",
@@ -102,10 +78,7 @@
        "coordinates" : [-0.364979, 51.372779]
      },
      "properties" : {
-       "name" : "Sandown",
-       "slopeURL" : "http://sandownsports.co.uk/map-general-info/",
-       "clubName" : null,
-       "clubURL" : null
+       "name" : "Sandown"
      }
    },
    { "type" : "Feature",
@@ -114,10 +87,7 @@
        "coordinates" : [-0.212710, 51.791179]
      },
      "properties" : {
-       "name" : "Welwyn",
-       "slopeURL" : "http://www.better.org.uk/leisure-centre/welwyn/gosling-sports-park/facilities",
-       "clubName" : null,
-       "clubURL" : null
+       "name" : "Welwyn"
      }
    },
    { "type" : "Feature",
@@ -126,10 +96,7 @@
        "coordinates" : [-0.458958, 51.745684]
      },
      "properties" : {
-       "name" : "Hemel Hempstead",
-       "slopeURL" : "http://www.thesnowcentre.com/",
-       "clubName" : null,
-       "clubURL" : null
+       "name" : "Hemel Hempstead"
      }
    }
   ]
