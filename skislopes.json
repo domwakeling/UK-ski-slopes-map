@@ -7,7 +7,7 @@
      },
      "properties" : {
        "name" : "Bowles"
-	 }
+     }
    },
    { "type" : "Feature",
      "geometry" : {
@@ -111,7 +111,7 @@
    { "type" : "Feature",
      "geometry" : {
        "type" : "Point",
-       "coordinates" : [-0.788097, 51.414617],
+       "coordinates" : [-0.788097, 51.414617]
      },
      "properties" : {
        "name" : "Bracknell"
@@ -120,7 +120,7 @@
    { "type" : "Feature",
      "geometry" : {
        "type" : "Point",
-       "coordinates" : [-0.747291, 52.041935],
+       "coordinates" : [-0.747291, 52.041935]
      },
      "properties" : {
        "name" : "Milton Keynes"
@@ -129,7 +129,7 @@
    { "type" : "Feature",
      "geometry" : {
        "type" : "Point",
-       "coordinates" : [1.320784, 52.614866],
+       "coordinates" : [1.320784, 52.614866]
      },
      "properties" : {
        "name" : "Norwich"
@@ -138,7 +138,7 @@
    { "type" : "Feature",
      "geometry" : {
        "type" : "Point",
-       "coordinates" : [-2.361093, 53.468265],
+       "coordinates" : [-2.361093, 53.468265]
      },
      "properties" : {
        "name" : "Manchester"
