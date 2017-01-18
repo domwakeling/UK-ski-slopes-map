@@ -43,14 +43,14 @@ var div = d3.select("body").append("div")
     .style("opacity", 0);
 
 // URLs for [1] a 110-m map stored in a GitHub repo and [2] the slopes data in a GitHub repo
-var url1 = "https://raw.githubusercontent.com/domwakeling/UK-ski-slopes-map/master/world.json"
+var url1 = "https://raw.githubusercontent.com/domwakeling/UK-ski-slopes-map/master/world.json";
 var url2 = "https://raw.githubusercontent.com/domwakeling/UK-ski-slopes-map/master/skislopes.json";
 
 d3.queue(2)
     .defer(d3.json, url1)
     .defer(d3.json, url2)
     .await(function(error, topology, slopes) {
-        if (error) throw error;
+        if (error) {console.log(error); throw error;}
         renderMap(topology, slopes);
     });
 

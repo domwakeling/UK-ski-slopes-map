@@ -143,6 +143,15 @@
      "properties" : {
        "name" : "Manchester"
      }
+   },
+   { "type" : "Feature",
+     "geometry" : {
+       "type" : "Point",
+       "coordinates" : [-2.221515, 51.834901]
+     },
+     "properties" : {
+       "name" : "Gloucester"
+     }
    }
   ]
 }
